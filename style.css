@@ -1,0 +1,30 @@
+body{
+ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.container {
+ color: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.result{
+    background-color: whitesmoke;           
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
